@@ -1,0 +1,40 @@
+<!-- to start git simple right "git " in the cmd  -->
+<!-- this is to config the username  and email-->
+git config --global user.name "Shilpa"-
+git config --global user.email "shilpasharmah02@gmail.com"-config ur email
+<!-- to check simply username and email write the below code of line -->
+git config --list
+<!-- this will giv the list of code where we can see our username and email -->
+$ git config user.name <!-- this will give username -->
+
+<!-- to check the status simply write -->
+git status
+
+<!-- to make a git respsitory  -->
+git init
+
+<!-- to add files in the staging area -->
+git add --a
+
+<!-- to commit the staged files with a msg here -m means with a msg -->
+git commit -m "Initial Commit:
+
+<!-- to check the commit  -->
+git log
+
+<!-- to commit a particular file  -->
+git add file.txt <!-- here file.txt is the name of the file you want to commit-->
+<!-- to delete .git repository .the below cmd will delete git files..rm -rf is a linux cmd use to delete the content of a file where in the below code it is .git   -->
+rm -rf.git
+<!-- to get the clone of a remote repository  -->
+git clone https://github.com/tensorflow/tensorflow.git <!--url of that git folder-->
+
+<!-- to get the current folder -->
+ pwd<!--to get  present working directory  -->
+ ls <!--to get the list of contents--> 
+ cd <!--change directory-->
+
+ touch error.log <!--it will create error.log file-->
+ <!-- if we want to ignore error.log file we will include it in .gitignore 
+    .. -->
+    touch .gitignore <!--just write error.log in the gitignore file-->
